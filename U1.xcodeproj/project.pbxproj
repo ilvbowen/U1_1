@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20161572B649EF1740D83CED /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20161D6A2B4CCD10094C0A9B /* HomeModel.m */; };
 		767F4AEB49D467910E12402F /* libPods-U1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4190367EE01619DC509037 /* libPods-U1.a */; };
 		80875E281DA6B7EE00BB2705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80875E271DA6B7EE00BB2705 /* main.m */; };
 		80875E2B1DA6B7EE00BB2705 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80875E2A1DA6B7EE00BB2705 /* AppDelegate.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20161B627C346B7E079A4E85 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		20161D6A2B4CCD10094C0A9B /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		5D4190367EE01619DC509037 /* libPods-U1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-U1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FB1B6512B1C8B50A7CE9F7 /* Pods-U1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-U1.release.xcconfig"; path = "Pods/Target Support Files/Pods-U1/Pods-U1.release.xcconfig"; sourceTree = "<group>"; };
 		80875E231DA6B7EE00BB2705 /* U1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = U1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20161796D42CF36746FFCA16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20161D6A2B4CCD10094C0A9B /* HomeModel.m */,
+				20161B627C346B7E079A4E85 /* HomeModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		201617F64083E139BBDF3E77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3AF7B2DB56B0D64227C9E89F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +110,8 @@
 				80875E341DA6B7EE00BB2705 /* LaunchScreen.storyboard */,
 				80875E371DA6B7EE00BB2705 /* Info.plist */,
 				80875E261DA6B7EE00BB2705 /* Supporting Files */,
+				201617F64083E139BBDF3E77 /* Controller */,
+				20161796D42CF36746FFCA16 /* Model */,
 			);
 			path = U1;
 			sourceTree = "<group>";
@@ -228,6 +249,7 @@
 				80875E2E1DA6B7EE00BB2705 /* ViewController.m in Sources */,
 				80875E2B1DA6B7EE00BB2705 /* AppDelegate.m in Sources */,
 				80875E281DA6B7EE00BB2705 /* main.m in Sources */,
+				20161572B649EF1740D83CED /* HomeModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
