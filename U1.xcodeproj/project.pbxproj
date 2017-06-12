@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F6F85741EEEAE18007CA272 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6F85731EEEAE18007CA272 /* HomeViewController.m */; };
 		20161572B649EF1740D83CED /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20161D6A2B4CCD10094C0A9B /* HomeModel.m */; };
 		767F4AEB49D467910E12402F /* libPods-U1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4190367EE01619DC509037 /* libPods-U1.a */; };
 		80875E281DA6B7EE00BB2705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80875E271DA6B7EE00BB2705 /* main.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F6F85721EEEAE18007CA272 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2F6F85731EEEAE18007CA272 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		20161B627C346B7E079A4E85 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		20161D6A2B4CCD10094C0A9B /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		5D4190367EE01619DC509037 /* libPods-U1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-U1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,22 +50,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20161796D42CF36746FFCA16 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				20161D6A2B4CCD10094C0A9B /* HomeModel.m */,
-				20161B627C346B7E079A4E85 /* HomeModel.h */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		201617F64083E139BBDF3E77 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		3AF7B2DB56B0D64227C9E89F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,8 +97,6 @@
 				80875E341DA6B7EE00BB2705 /* LaunchScreen.storyboard */,
 				80875E371DA6B7EE00BB2705 /* Info.plist */,
 				80875E261DA6B7EE00BB2705 /* Supporting Files */,
-				201617F64083E139BBDF3E77 /* Controller */,
-				20161796D42CF36746FFCA16 /* Model */,
 			);
 			path = U1;
 			sourceTree = "<group>";
@@ -249,7 +234,6 @@
 				80875E2E1DA6B7EE00BB2705 /* ViewController.m in Sources */,
 				80875E2B1DA6B7EE00BB2705 /* AppDelegate.m in Sources */,
 				80875E281DA6B7EE00BB2705 /* main.m in Sources */,
-				20161572B649EF1740D83CED /* HomeModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
